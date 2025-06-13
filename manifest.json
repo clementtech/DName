@@ -1,0 +1,52 @@
+{
+  "name": "Clement's Digital Name Card",
+  "short_name": "Clement",
+  "start_url": "https://clementtech.github.io/",
+  "display": "standalone",
+  "description": "Cool Digital Name card made by Clement",
+  "lang": "en",
+  "dir": "auto",
+  "theme_color": "#78909c",
+  "background_color": "#78909c",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "assets/profile.webp",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/profile.webp",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/screenshot.webp",
+      "sizes": "2880x1800",
+      "type": "image/png",
+      "description": "Screenshot of how the name card will look like!"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "windows",
+      "url": "https://clementtech.github.io/"
+    },
+    {
+      "platform": "play",
+      "url": "https://clementtech.github.io/"
+    }
+  ],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Clement's Digital Name Card",
+      "url": "https://clementtech.github.io/",
+      "description": "Cool Digital Name card made by Clement"
+    }
+  ]
+}
