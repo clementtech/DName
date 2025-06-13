@@ -1,7 +1,7 @@
 {
   "name": "Clement's Digital Name Card",
   "short_name": "Clement",
-  "start_url": "https://clementtech.github.io/",
+  "start_url": "https://clementtech.github.io/DName/",
   "display": "standalone",
   "description": "Cool Digital Name card made by Clement",
   "lang": "en",
@@ -34,18 +34,18 @@
   "related_applications": [
     {
       "platform": "windows",
-      "url": "https://clementtech.github.io/"
+      "url": "https://clementtech.github.io/DName/"
     },
     {
       "platform": "play",
-      "url": "https://clementtech.github.io/"
+      "url": "https://clementtech.github.io/DName/"
     }
   ],
   "prefer_related_applications": false,
   "shortcuts": [
     {
       "name": "Clement's Digital Name Card",
-      "url": "https://clementtech.github.io/",
+      "url": "https://clementtech.github.io/DName/",
       "description": "Cool Digital Name card made by Clement"
     }
   ]
