@@ -68,3 +68,8 @@ img {
   width: 25px;
   height: 25px;
 }
+
+.return a {
+  text-decoration: none;
+  color: #eceff1;
+}
