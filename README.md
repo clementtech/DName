@@ -1,4 +1,4 @@
-[Cool Digital Name Card](https://clementtech.github.io/)
+[Cool Digital Name Card](https://clementtech.github.io/DName/)
 
 Expected Output:
 ![alt text](assets/screenshot.webp)
