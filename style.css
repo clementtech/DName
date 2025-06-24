@@ -52,7 +52,6 @@ img {
   body {
     background-color: #b0bec5;
   }
-   
 }
 .profile {
   margin: 10px;
@@ -77,6 +76,6 @@ img {
   text-decoration: none;
 }
 
-.return h1{
+.return h1 {
   color: #eceff1;
 }
