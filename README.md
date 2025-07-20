@@ -1,5 +1,9 @@
 [Cool Digital Name Card](https://clementtech.github.io/DName/)
 
+
+Doing major overhaul soon, completly redesign. Doing minor changes now.
+
+
 Expected Output:
 ![alt text](assets/screenshot.webp)
 

@@ -1,11 +1,18 @@
+:root {
+  --main-background-color: #78909c;
+  --secondary-background-color: #b0bec5;
+  --primary-text-color: #eceff1;
+  --secondary-text-color: #78909c;
+  --button-background-color: #eceff1;
+  --button-hover-background-color: #78909c;
+  --button-hover-text-color: #eceff1;
+}
+
 body {
-  background-color: #78909c;
+  background-color: var(--main-background-color);
   text-align: center;
-  color: #eceff1;
+  color: var(--primary-text-color);
   font-family: Roboto;
-  margin: 0px;
-  margin-top: 2em;
-  margin-bottom: 2em;
 }
 
 .link a {
@@ -16,47 +23,16 @@ body {
   border-radius: 25%;
   width: 150px;
   height: 150px;
-  background-color: #eceff1;
+  background-color: var(--button-background-color);
   padding: 1.5em;
   margin: 10px;
-  color: #78909c;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  position: relative;
-  overflow: hidden;
-}
-
-.link button::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #78909c;
-  opacity: 0;
-  z-index: -1;
-  transform: scale(0.5);
-  border-radius: 50%;
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  color: var(--secondary-text-color);
 }
 
 .link a:hover button {
-  color: #eceff1;
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  color: var(--button-hover-text-color);
+  background-color: var(--button-hover-background-color);
 }
-
-.link a:hover button::before {
-  opacity: 1;
-  transform: scale(1.5);
-}
-
-.link a:hover button img {
-  transform: scale(1.1);
-  transition: transform 0.3s ease;
-}
-
 
 img {
   width: 80px;
@@ -68,7 +44,7 @@ img {
     padding: 1.5em;
     width: 450px;
     height: 750px;
-    background-color: #b0bec5;
+    background-color: var(--secondary-background-color);
     border-radius: 50px;
     margin: auto;
   }
@@ -76,9 +52,10 @@ img {
 
 @media (max-width: 1200px) {
   body {
-    background-color: #b0bec5;
+    background-color: var(--secondary-background-color);
   }
 }
+
 .profile {
   margin: 10px;
   border-radius: 50%;
@@ -86,22 +63,10 @@ img {
   height: 250px;
 }
 
-.navigate button {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #eceff1;
-}
-
-.navigate img {
-  width: 25px;
-  height: 25px;
-}
-
 .return a {
   text-decoration: none;
 }
 
 .return h1 {
-  color: #eceff1;
+  color: var(--primary-text-color);
 }
